@@ -1,0 +1,265 @@
+## .NET
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio cache/options
+.vs/
+.vscode/
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# User-specific files
+*.userprefs
+
+# Build Results
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Go
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file
+go.work
+
+# Compiled Object files, Static and Dynamic libs
+*.o
+*.a
+
+# Folders created by Go build
+/agent-cli/bin/
+/agent-cli/pkg/
+
+# Go vendor directory
+vendor/
+
+# Go module cache
+go.sum.backup
+
+## Database
+
+# PostgreSQL
+*.sql
+*.db
+*.sqlite
+*.sqlite3
+
+# Database data (Docker volumes are handled separately)
+/pgdata/
+/postgres-data/
+
+## Docker
+
+# Docker compose override files
+docker-compose.override.yml
+.dockerignore
+
+# Docker volumes data
+/volumes/
+
+## IDE and Editors
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Claude Code
+.claude/
+
+# JetBrains IDEs (Rider, GoLand, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+# Vim
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+## OS
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+## Environment and Configuration
+
+# Environment files with secrets
+.env
+.env.local
+.env.production
+.env.development
+*.env
+
+# Configuration files with secrets
+appsettings.*.json
+!appsettings.json
+!appsettings.Development.json
+
+# Azure credentials
+.azure/
+
+# MSAL token cache
+.agent_token_cache.json
+*_token_cache.json
+
+## Logs
+
+# Application logs
+*.log
+logs/
+*.log.*
+
+# ASP.NET Core
+logs/
+*.log
+
+## Temporary files
+
+# Build artifacts
+*.DotSettings.user
+_ReSharper*/
+*.ReSharper
+*.DotSettings
+
+# Publish profiles
+PublishProfiles/
+*.pubxml
+*.publishproj
+
+# Azure Web App publish settings
+*.azurePubxml
+
+# Package Files
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.7z
+
+## Test Coverage
+
+# Coverage reports
+coverage/
+*.coverage
+*.coveragexml
+TestResults/
+
+## Misc
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Temporary folders
+tmp/
+temp/
