@@ -9,7 +9,7 @@ services:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: devpassword123
     ports:
-      - "5432:5432"
+      - "5433:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
     healthcheck:
@@ -25,10 +25,9 @@ services:
     container_name: agent-server
     ports:
       - "5000:8080"
-      - "5001:8081"
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_URLS=http://+:8080;https://+:8081
+      - ASPNETCORE_URLS=http://+:8080
       - ConnectionStrings__DefaultConnection=Host=postgres;Database=agentmiddleware;Username=postgres;Password=devpassword123
       - Azure__ProjectEndpoint=${AZURE_PROJECT_ENDPOINT}
       - Azure__ModelDeployment=${AZURE_MODEL_DEPLOYMENT}
