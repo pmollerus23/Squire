@@ -143,6 +143,7 @@ docker-compose.override.yml
 
 # Claude Code
 .claude/
+CLAUDE.md
 
 # JetBrains IDEs (Rider, GoLand, etc.)
 .idea/
